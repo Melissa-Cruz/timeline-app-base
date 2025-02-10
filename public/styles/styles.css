@@ -6,8 +6,31 @@
 --white: #FFFFFF;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 /* header */
-header-div-logo
+/* nav {
+    display: flexbox;
+    flex-direction: row;
+
+} */
+
+.header-div-logo {
+    width:30%;
+    
+}
+
+/* ask yourself if you can draw that whole border, padding and margin */
+.body-div-container{
+    display: flexbox;
+    text-align: center;
+    padding: 10%;
+
+}
+
+
 
 
 /* from Google Fonts */
