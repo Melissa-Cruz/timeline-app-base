@@ -1,26 +1,109 @@
 :root{
 --light_green:#cfffdc; 
 --green:#2e6f40;
+--light-mid-green:#7ae097;
 --mid_green:#68ba7f;
 --black_green:#253d2c;
 --white: #FFFFFF;
 }
 
 *{
-    box-sizing: border-box;
+  font-size: 1.2rem;
+  box-sizing: border-box;
 }
 
-/* header */
-/* nav {
+
+
+
+/*********************** header *************************************/
+
+/* change the font to create more distinction with the body - check pinterest font */
+header a{ 
+  font-family:"Mulish-regular", serif;
+  font-weight: bold;
+}
+.header-div-container{
+  display: flexbox;
+  flex-flow: row;
+  flex-direction: row;
+  width: 100%;
+  /* display: inline; */
+
+}
+
+.header-div-logo-container {
+  display: inline-block;
+  width:40%;
+  position: relative;
+}
+
+.header-nav-account-container {
+  /* display: flexbox; */
+  width: 100%;
+  /* margin-bottom: -70%; */
+  /* padding-bottom: 50%; */
+  /* margin-top: 0%; */
+  /* margin-left:70%; */
+
+  /* Is there a better way to do this positioning? */
+  position: absolute;
+  top: 1%;
+  left: 30%;
+  justify-content: right;
+  /* position: relative; */
+}
+
+
+
+/******************* navbar below logo still inside header ************************************/
+nav {
     display: flexbox;
     flex-direction: row;
-
-} */
-
-.header-div-logo {
-    width:30%;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    text-align: center; 
+    /* align-items: center; */
+    padding-top: 5%;
+    color: black;
+    /* justify-content: space-between; */
+    /* display: inline-block; */
+    
     
 }
+
+nav a {
+  text-decoration:  none;
+  text-decoration-color: black;
+  color: black;
+  align-content: center;
+  /* justify-content: space-between; *
+   /* tex- */
+  /* display: inline-block; */
+
+}
+
+
+/* apply the button class to all nav */
+.nav-a-button {
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: var(--light_green);
+  border-radius: 10%;
+  /* justify-content: space-evenly; */
+  /* display: inline-block; */
+ 
+} 
+
+
+/*********************** Link/Button States  *************************/
+
+
+
+
+
+
 
 /* ask yourself if you can draw that whole border, padding and margin */
 .body-div-container{
@@ -31,9 +114,25 @@
 }
 
 
+/*************************** footer  *********************/
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+
+}
+
+footer div a {
+  text-decoration: none;
+  color: black;
+}
 
 
-/* from Google Fonts */
+
+
+
+/**************** from Google Fonts***************************** */
 .merriweather-light {
     font-family: "Merriweather", serif;
     font-weight: 300;
