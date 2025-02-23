@@ -97,6 +97,58 @@ nav a {
 } 
 
 
+/*******************login registration form **************/
+
+.body-main-div-white-container{
+  border: blue;
+  border-style: solid;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10%;
+  
+}
+.div-h1-white-container{
+  /* justify-items: center; */
+  /* dis */
+  border:purple;
+  border-style: solid;
+
+}
+.body-div-login-form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: red;
+  border-style: solid;
+  justify-content: center;
+  /* padding-left:30%; */
+}
+
+
+.form-div-spacing{
+  padding-bottom:5%;
+}
+
+.form-button-style{
+  background-color: var(--mid_green);
+  border-color: var(--mid_green);
+
+  color:var(--white);
+  text-decoration: none;
+  /* text-decoration-color: none; */
+  
+  border-radius: 10%;
+}
+  
+.form-button-style a {
+  text-decoration: none;
+  text-decoration-color: white;
+  color:var(--white);
+  /* text-color */
+}
+
 /*********************** Link/Button States  *************************/
 
 
@@ -106,12 +158,17 @@ nav a {
 
 
 /* ask yourself if you can draw that whole border, padding and margin */
-.body-div-container{
-    display: flexbox;
-    text-align: center;
-    padding: 10%;
 
-}
+
+/* .body-div-container{
+    display: flexbox;
+    align-items:center;
+    justify-content: center;
+    /* text-align: center; */
+    /* margin-top: 20%; */
+
+/* } */ */
+
 
 
 /*************************** footer  *********************/
