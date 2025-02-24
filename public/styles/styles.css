@@ -5,11 +5,28 @@
 --mid_green:#68ba7f;
 --black_green:#253d2c;
 --white: #FFFFFF;
+--gray: gainsboro; 
+--form_button_color:#009428; 
+
+/* :;  */
+
+
+
+/* other form button color to try 
+#83ffa4
+#008123
+#007d1e
+
+#00a82d
+other optionsare listed here 
+https://www.colorhexa.com/cfffdc
+*/
 }
 
 *{
   font-size: 1.2rem;
   box-sizing: border-box;
+
 }
 
 
@@ -48,7 +65,7 @@ header a{
   /* Is there a better way to do this positioning? */
   position: absolute;
   top: 1%;
-  left: 30%;
+  left: 25%;
   justify-content: right;
   /* position: relative; */
 }
@@ -84,7 +101,7 @@ nav a {
 
 
 /* apply the button class to all nav */
-.nav-a-button {
+.nav-a-button{
   padding-right: 2%;
   padding-left: 2%;
   padding-top: 1%;
@@ -106,24 +123,53 @@ nav a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 10%;
+  margin-top: 15%;
+  /* margin-bottom: 30%; */
+  /* padding-bottom: 5%; */
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 10%;
+  border-color: var(--black_green);
+  border-style: solid;
+  border-width: .25em;
   
 }
 .div-h1-white-container{
   /* justify-items: center; */
   /* dis */
-  border:purple;
-  border-style: solid;
+  /* border:purple; */
+  /* border-style: solid; */
+  padding-top: 5%;
+  padding-bottom: 5%;
+  
 
 }
 .body-div-login-form-container{
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: red;
-  border-style: solid;
+  /* border: red; */
+  /* border-style: solid; */
   justify-content: center;
   /* padding-left:30%; */
+  /* padding-top: %; */
+}
+
+.body-div-login-form-container form label{
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  text-align: left;
+}
+
+/*  */
+.login-form-input-style{
+  border-radius: 2%;
+  /* top | right | bottom | left */
+  padding:2% 0% 2% 5%;
+  border-style: solid; 
+  border-color: var(--gray);
+
 }
 
 
@@ -131,22 +177,40 @@ nav a {
   padding-bottom:5%;
 }
 
-.form-button-style{
-  background-color: var(--mid_green);
-  border-color: var(--mid_green);
+.form-button-style{ 
+  background-color: var(--form_button_color);
+  border-color: var(--form_button_color);
+  border-style: none;
 
   color:var(--white);
   text-decoration: none;
-  /* text-decoration-color: none; */
-  
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   border-radius: 10%;
+
+  border-style: none; 
+  border-color: none;
+
+
+/* having the buttons the same as the navbar button */
+/* padding-right: 2%;
+padding-left: 2%;
+padding-top: 1%;
+padding-bottom: 1%;
+background-color: var(--light_green);
+border-radius: 10%;
+text-color:black; */
+
 }
+
+
   
 .form-button-style a {
   text-decoration: none;
   text-decoration-color: white;
   color:var(--white);
-  /* text-color */
 }
 
 /*********************** Link/Button States  *************************/
