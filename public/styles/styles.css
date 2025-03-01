@@ -54,6 +54,7 @@ https://www.colorhexa.com/cfffdc
 
   /* padding-top: 10px; */
   text-align: center;
+  /* padding-top:5%; */
   
 }
 /* 
@@ -78,19 +79,23 @@ https://www.colorhexa.com/cfffdc
   /* align-content: center; */
   /* justify-content: center;  */
   /* margin: auto; */
-  width: 100%;
+  width: 90%;
   border-style: solid;
-  border-color: red;
+  border-color:var(--black_green);
+  background-color: #f6fff9;
+  border-width: thick;
   /* display: block; */
 
 
   margin-right: auto;
   margin-left: auto;
 
+  border-radius: 15%;
+
 }
 
 
-.body-div-container .body-div-timeline-container-unit  {
+/* .body-div-container .body-div-timeline-container-unit  {
   display: flexbox;
   background-color: red;
   align-items: center;
@@ -102,16 +107,12 @@ https://www.colorhexa.com/cfffdc
   display: flexbox;
   flex-flow: row;
   flex-direction: row;
-  /* align-items: center;*/
   justify-content: center; 
   align-self: center;
   margin: auto;
-}
+} 
+*/
 
-.timeline-example-image {
-  align-self: center;
-
-}
 
 
 /* *********************index*************** */
@@ -132,14 +133,19 @@ https://www.colorhexa.com/cfffdc
 } */
 
 .timeline-example-image{
-  width: 30%;
-  height: 30%;
+  width: 90%;
+  height: 90%;
   /* margin: auto; */
   align-content: center;
   align-self: center;
+  border-radius: 10%;
   
 }
 
+.body-div-timeline-container-unit img{
+  object-fit: contain;
+
+}
 
 
 
