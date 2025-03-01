@@ -32,9 +32,9 @@ https://www.colorhexa.com/cfffdc
 
 /* ************************** index - main section images ************************** */
 .body-div-container{
-  display: flexbox;
-  flex-flow: flow;
-  width: 100%;
+  display: flex;
+  flex-flow: row;
+  width: 90%;
   flex-direction: column;
   align-items: stretch;
   flex-wrap: row;
@@ -71,7 +71,7 @@ https://www.colorhexa.com/cfffdc
 } */
 
 .body-div-timeline-container-unit{
-  display: flexbox;
+  display: flex;
   flex-flow:row;
   flex-direction: column;
   flex-wrap: wrap;
@@ -160,7 +160,7 @@ header a{
   font-weight: bold;
 }
 .header-div-container{
-  display: flexbox;
+  display: flex;
   flex-flow: row;
   flex-direction: row;
   width: 100%;
@@ -194,9 +194,9 @@ header a{
 
 /******************* navbar below logo still inside header ************************************/
 nav {
-    display: flexbox;
-    flex-direction: row;
-    flex-wrap: wrap;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
     /* align-items: center; */
     text-align: center; 
     /* align-items: center; */
@@ -244,7 +244,7 @@ nav a {
 .body-main-div-white-container{
   border: blue;
   border-style: solid;
-  display: flexbox;
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -376,19 +376,40 @@ text-color:black; */
 
 
 /*************************** footer  *********************/
-footer {
+
+.footer-container {
+/* footer{  */
   display: flex;
-  flex-direction: row;
-  /* flex-flow: row; */
+  flex-direction:row;
   flex-wrap: wrap;
-  /* align-items: center; */
-  align-content: space-evenly;
+  flex-flow: row;
+  /* align-content: space-evenly; */
+
+   
+  /* margin-top:5%; */
+  padding-top: 20%; 
+  border-color: black;
+  border-style: solid;
+  /* padding-left: 20px;  */
+  background-color: red; 
+  /* margin-left: 5%; */
+  /* margin-right: 5%; */
+  /* padding-left: 20px;   */
+  margin-right: auto;
+  margin-left: auto;
   width: 100%;
+  height: auto;
+  justify-content: space-around;
+  /* width: 500px; */
 
 }
-/* footer div {  */
-  /* width: 30%; */
+
+/* footer div { */
+  /* width: 300px; */
+  /* background-color: blue; */
+
 /* } */
+
 
 footer div a {
   text-decoration: none;
