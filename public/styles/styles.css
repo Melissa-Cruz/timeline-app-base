@@ -87,6 +87,7 @@ https://www.colorhexa.com/cfffdc
   /* align-items: center;*/
   justify-content: center; 
   align-self: center;
+  margin: auto;
 }
 
 .timeline-example-image {
