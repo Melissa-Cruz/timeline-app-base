@@ -1,3 +1,22 @@
+Title: Visually Web App
+
+Description: Goal setting app focused on the visual aspect of  completing a goal using the SMART goal method.  The point of the app is that allows for pictures to show the visual steps/journey to  complete your goal. 
+
+Developer Section:
+
+Installation: 
+
+Run:
+
+Usage:
+
+Badges:
+
+Contributors:
+
+
+
+
 Step left 
 
 1. picture series for goal progession - I'll pick home ownership
@@ -5,6 +24,10 @@ Step left
 3.  Need to add the additional pages 
 4. Button  and link changing states based on action
 5. Check color and fonts
+
+
+
+
 
 
 

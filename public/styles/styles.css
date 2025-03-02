@@ -497,7 +497,38 @@ text-color:black; */
 /* } */ 
 
 
+/*****************************  Action - Add a Moment ******************************/
+.drop-area {
+  width: 400px;
+  height: 200px;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 200px;
+  border: 2px dashed #ccc;
+  cursor: pointer;
+}
 
+.main-add-moment-container{
+  text-align: center;
+  padding-top: 10%;
+  padding-left:5%;
+  padding-right:5%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 20%;
+}
+
+.moment-form {
+  padding-top:10%;
+  text-align: left;
+}
+
+.moment-form label { 
+  display: inline-block;
+  justify-self: left;
+  align-self: left;
+
+}
 /*************************** footer  *********************/
 
 .footer-container {
