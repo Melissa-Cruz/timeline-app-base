@@ -47,42 +47,60 @@
 
 </header>
 
-<!-- This page is what the user will see after action Add Moment is saved  -->
-
-<!-- everything includign the image is just a placeholder for the information -->
+<!-- This page is to link to the button input for the "Upload progress, feeling or blocker for a timeline." -->
 <body>
-    <main> 
-        <div class="body-div-container">
-      
-        <br>
-        <br>
-        <!-- <div class="body-div-timeline-container-unit">   -->
-            <div class="body-div-timeline-container-unit">
-                <h1>Timeline: Starter Home</h1>
-                
-                <img class="timeline-example-image" src="public/images/single_family_starter_home_pool_view.jpg" alt="pool side view of a one story brown ranch house">
-                <br>
-            </div>
-            <br>
-            <div class="body-div-timeline-container-unit">
-                <h1>Timeline: Hike Appalachian Trail</h1>
-            </div>
+    <main class="main-add-moment-container">
 
-        <!-- </div> -->
-
-
-
-    </div>
-        <!--  -->
-
-        <section class ="view-action-bottom-buttons">
-            <!-- <a class=nav-a-button href="index.html" target="_self">Home</a> -->
-            <a class=nav-a-button href="createNewTimeline.html " target ="_self">Create New Timeline</a>
-
+        <div>
+            <h1>Create a new timeline.</h1>
     
-        </section>
-    </main>
+        </div>
+        
+        <!-- once we learn javascript replace image upload with a  -->
+        <div>
+            <!-- <h2> Drag and drop your image</h2> -->
+            <p>Upload your vision board.</p>
 
+            <div class="drop-area">
+                Upload collage here.
+            </div>
+
+            <form class="moment-form">
+                <div>
+                    <label for="timeline_name"> Timeline Name:</label>
+                    <input type="text" name="timeline_name" id="timeline_name">
+                </div>
+
+                <div>
+                    <label for="timeline_description"> Why do you want to pursue this vision?:</label>
+                    <textarea type="textarea" name="timeline_description" id="timeline"></textarea>
+                </div>  
+
+                <div>
+                    <label for="timeline_start_date">Timeline start date:  </label>
+                    <input type="date" name="timeline_start_date" id="timeline_start_date"></input>
+                </div>  
+
+                <div>
+                    <label for="moment_milestones"> Milestone:</label>
+                    <input type="text" name="moment_milestones" id="moment_milestones"></input>
+                </div>  
+
+                <div>
+                    <label for="timeline_steps"> Steps:</label>
+                    <input type="text" name="timeline_steps" id="timeline_steps"></input>
+                </div>  
+
+
+
+
+                <div class="main-action-form-div-submit-container"><input class="main-action-form-div-input" type="submit" value="Save">
+                </div>
+                
+            </form>
+        </div>
+        <!--  -->
+    </main>
     
 </body>
 
