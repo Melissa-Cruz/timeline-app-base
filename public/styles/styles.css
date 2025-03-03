@@ -214,7 +214,7 @@ https://www.colorhexa.com/cfffdc
 /*********************** header *************************************/
 
 /* change the font to create more distinction with the body - check pinterest font */
-header a{ 
+header a, .view-action-bottom-buttons a{ 
   font-family:"Mulish-regular", serif;
   font-weight: bold;
 }
@@ -252,7 +252,7 @@ header a{
 
 
 /******************* navbar below logo still inside header ************************************/
-nav {
+nav , .view-action-bottom-buttons{
     /* display: flex; */
     /* flex-direction: row; */
     /* flex-wrap: wrap; */
@@ -267,7 +267,7 @@ nav {
     
 }
 
-nav a {
+nav a, .view-action-bottom-buttons a {
   text-decoration:  none;
   text-decoration-color: black;
   color: black;
@@ -277,6 +277,11 @@ nav a {
   /* display: inline-block; */
 
 }
+
+.view-action-bottom-buttons {
+  padding-top: 10%;
+}
+
 
 .header-nav-lower-container {
   padding-top: 15%;
