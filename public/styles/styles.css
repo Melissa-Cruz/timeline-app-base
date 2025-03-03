@@ -485,6 +485,20 @@ text-color:black; */
 
 
 
+a:hover{
+  /* color:var(--light_teal); */
+  /* font-weight: bold; */
+  /* text-shadow: #253d2c; */
+  background-color: #68ba7f;
+}
+
+a:visited, a:active{
+  /* color:var(--blue); */
+  font-weight: bold;
+  background-color: #68ba7f;
+  /* background-color:var(--yellow); */
+}
+
 
 
 
