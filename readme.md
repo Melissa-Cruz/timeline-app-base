@@ -17,7 +17,7 @@ Contributors:
 
 
 
-Step left 
+Step left  - Refer to checklist in Canvas in Slack
 
 1. picture series for goal progession - I'll pick home ownership
 2. Make the timeline container card
