@@ -104,25 +104,32 @@ https://www.colorhexa.com/cfffdc
 
 .body-div-vision-steps-collage-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   
-  flex-flow: column;
+  flex-flow: row;
   width: auto;
-   /* height: ; */
+   /* height:auto ; */
   margin-top: 10%;
   margin-right: auto;
   margin-left: auto;
+  height: 600px;
+
+
+
 }
 
 
 .body-div-vision-steps-collage-container img { 
-  width: 40%;
+  width: 90%;
   height: 40%;
+  /* width: auto; */
+  /* height: auto; */
   border-style: solid;
   background-color: #f6fff9;
   border-width: medium;
   padding: 2%;
+
  
 }
 
