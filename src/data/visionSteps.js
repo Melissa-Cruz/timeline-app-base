@@ -49,6 +49,16 @@ const visionImages = [
         imageSourceName: "pexels-yankrukov-8436637.jpg",
         imageCreator: "Yan Krukoa"
         
+    },
+    {
+        _id:"5",
+        title:"Mount Washington",
+        altText:"Green hillish mountain top with blue sky, white clouds and blue puddles of water.",
+        image:"mount-washington.jpg",
+        imageSourceURL: "pexels.com",
+        imageSourceName: "pexels-ken-stringer-301046134-13527471jpg",
+        imageCreator: "Ken Stringer"
+        
     }
 
 
