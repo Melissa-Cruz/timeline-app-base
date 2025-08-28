@@ -1,6 +1,12 @@
-Title: Visually Web App
+# Visually Web App
 
 Description: Goal setting app focused on the visual aspect of  completing a goal using the SMART goal method.  The point of the app is that allows for pictures to show the visual steps/journey to  complete your goal. 
+
+####This is the initial set up forthe visually react app. Please refer to the [visually client side repo ](https://github.com/Melissa-Cruz/visually-app-client) and the [visually server side repo] (https://github.com/Melissa-Cruz/visually-app-server) for the latest information.
+
+
+
+
 
 Developer Section:
 
@@ -17,9 +23,9 @@ Contributors:
 
 
 
-Step left  - Refer to checklist in Canvas in Slack
+Step left  - Refer to checklist in 
 
-1. picture series for goal progession - I'll pick home ownership
+1. picture series for goal progession 
 2. Make the timeline container card
 3.  Need to add the additional pages 
 4. Button  and link changing states based on action
