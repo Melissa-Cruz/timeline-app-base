@@ -1,8 +1,8 @@
 # Visually Web App
 
-Description: Goal setting app focused on the visual aspect of  completing a goal using the SMART goal method.  The point of the app is that allows for pictures to show the visual steps/journey to  complete your goal. 
+Goal setting app focused on the visual aspect of  completing a goal using the SMART goal method.  The point of the app is that allows for pictures to show the visual steps/journey to  complete your goal. 
 
-####This is the initial set up forthe visually react app. Please refer to the [visually client side repo ](https://github.com/Melissa-Cruz/visually-app-client) and the [visually server side repo] (https://github.com/Melissa-Cruz/visually-app-server) for the latest information.
+#### This is the initial set up forthe visually react app. Please refer to the [visually client side repo ](https://github.com/Melissa-Cruz/visually-app-client) and the [visually server side repo] (https://github.com/Melissa-Cruz/visually-app-server) for the latest information.
 
 
 
